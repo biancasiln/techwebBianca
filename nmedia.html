@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/QuartaAula/styles.css">
+</head>
+<body>
+    <div class="menu-topo">
+        <a href="/QuartaAula/index.html">Início</a>
+        <a href="/TerceiraAula/pescador.html">Pescador</a>
+        <a href="/TerceiraAula/nmedia.html">Média Escolar</a>
+        <a href="/QuartaAula/sobre.html">Sobre</a>
+    </div>
+    <h3>Resultado Escolar</h3>
+    <label>Nome do Aluno</label><br><br>
+    <input name="nome" id="nomeAluno" type = "text" /> <br><br>
+    <label>Digite a sua 1ª nota</label><br><br>
+    <input name="nota1" id="nota1" type = "number" required /><br><br>
+    <label>Digite a sua 2ª nota</label><br><br>
+    <input name="nota2" id="nota2" type = "number" required /><br><br>
+    <label>Digite a sua nota da recuperação</label><br><br>
+    <input name="rec" id="rec" type = "number" placeholder="Nota da recuperação" /><br><br>
+    <button onclick="calculaMedia()">Calcular</button>
+    <p id="resultado"></p>
+    <script src="nmedia.js"></script>
+</body>
+</html>
