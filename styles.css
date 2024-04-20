@@ -25,3 +25,13 @@ body {
 body {
     background-color: rgba(152, 152, 152, 0.5); 
   }
+
+.botao {
+    background-color: #007BFF; /* Azul */
+    color: white; /* Texto branco para alto contraste */
+    padding: 10px 20px; /* Espaçamento interno para conforto visual */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas para um visual moderno */
+    cursor: pointer; /* Cursor do mouse indica clicabilidade */
+    transition: background-color 0.3s; /* Transição suave de cores */
+}
